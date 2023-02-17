@@ -1,20 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * description: print single digits
- * return: always 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
 	int num;
+
 
 	for (num = '0'; num <= '9'; num++)
 	{
 		putchar(num);
 	}
-
 	putchar('\n');
-	
-	return (0)
+
+	return (0);
 }

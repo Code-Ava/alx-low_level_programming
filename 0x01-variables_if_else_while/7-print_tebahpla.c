@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include <unistd.h>
-
+#include <stdio.h>
 /**
- * main - entry point
- * description: prints lowercase alphabet in reverse
- * return: always 0 (success)
+ * main - Entry point
+ * Description: prints lowercase alphabets in reverse
+ * Return: Always 0 (success)
  */
 int main(void)
 {

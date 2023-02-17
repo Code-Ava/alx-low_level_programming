@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- * main - entry point
+ * main - Entry point
  * Description: prints numbers
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,7 +12,6 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
-		
 		if (i != '9')
 		{
 			putchar(',');
