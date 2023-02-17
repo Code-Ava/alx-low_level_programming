@@ -3,16 +3,16 @@
 /**
  * main - entry point
  * description: print all the numbers in base 16
- * return: always 0 (success)
+ * return: 0
  */
 int main(void)
 {
-	int a;
+	int i;
 
-	for (a = 48; a < 58; a++)
-		putchar(a);
-	for (a = 'i'; a <= 'f'; a++)
-		putchar(a);
+	for (i = 48; i < 58; i++)
+		putchar(i);
+	for (i = 'a'; i <= 'f'; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }

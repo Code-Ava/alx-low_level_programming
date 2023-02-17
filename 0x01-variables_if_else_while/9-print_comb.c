@@ -3,7 +3,7 @@
 
 /**
  * main - entry point
- * description: prints out a cobination of single digit numbers
+ * Description: prints numbers
  * return: always 0 (success)
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
-	
+		
 		if (i != '9')
 		{
 			putchar(',');
@@ -23,4 +23,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
-}	
+}

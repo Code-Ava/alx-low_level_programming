@@ -3,7 +3,7 @@
 
 /**
  * main - entry point
- * description: prints the lowercase alphabet in reverse
+ * description: prints lowercase alphabet in reverse
  * return: always 0 (success)
  */
 int main(void)
