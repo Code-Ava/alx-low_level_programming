@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
  * main - Entry point
- * description: prints the alphabet in lowercase\n
- * return: Always return 0 (success)
+ * Description: prints the alphabet in lowercase\n
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int ch
+	int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
