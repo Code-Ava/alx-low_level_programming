@@ -3,7 +3,7 @@
 /**
  * print_triangle - entry point
  * Description: Prints diagonals
- * @sie: size of the triangle
+ * @size: size of the triangle
  * Return: void
  */
 
@@ -23,7 +23,7 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-			for (hashes = 1; hashes <= row: hashes++)
+			for (hashes = 1; hashes <= row; hashes++)
 			{
 				_putchar('#');
 			}
