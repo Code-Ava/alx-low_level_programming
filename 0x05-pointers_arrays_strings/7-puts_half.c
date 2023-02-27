@@ -4,7 +4,7 @@
  * @str: char to check
  * Return: 0 is a sucess
  */
-void puts-half(char *str)
+void puts_half(char *str)
 {
 	int string = 0, n;
 
